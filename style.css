@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 2s;
+    background-color: rgb(220, 214, 250);
+
+}
+
+.all{
+display: flex;
+flex-direction: row-reverse;
+justify-content:space-around;
+margin-top: 50px;
+margin-right: 120px;
+margin-left: 50px;
+
+}
+
+h1{
+    font-size: 27px;
+}
+
+.left{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 1px solid rgba(0, 0, 0, 0.349);
+width: 370px;
+padding: 30px;
+padding-right: 10px;
+border-radius: 20px;
+box-shadow: 2px 2px 3px 3px rgb(14, 12, 11), 2px 2px 3px 5px rgb(14, 12, 11);
+}
+
+
+
+.a{   
+    padding: 20px;
+}
+    
+.b{
+    padding: 20px;
+    }
+    
+.c{
+    padding: 20px;
+    color:aqua ;
+    }
+    
+.d{
+    padding: 20px;
+    }
+
+.e{
+        padding: 20px;
+        color:aqua ;
+
+} 
+    
+
+.pic3{
+
+    margin-right: 200px;
+}
+.right{
+    margin-top: 100px;
+}
+.right:hover{transform: scale(.9);
+
+}
+
+.pic3 p{
+    font-size: 150px;
+    font-weight: 900;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+
+input{
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 7px;
+
+} 
+.cde{
+    width: 200px;
+    height: 60px;
+    background-color: rgba(20, 228, 37, 0.637);
+    color: aliceblue;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.d4{
+    width: 300px;
+    height: 60px;
+    background-color: rgba(41, 20, 228, 0.87);
+    color: aliceblue;
+
+}
+
+
+.d:hover,.email:hover,.password:hover,.d4:hover,.cde:hover  {transform: scale(1.2 );}
+
+
+/* .email:hover{transform: scale(1.2) ;}
+.password:hover{transform: scale(1.2 );}
+.d4:hover{transform: scale(1.2 );}
+.cde:hover{transform: scale(1.2 );}
+.d:hover{transform: scale(1.2 );}
+ */
+
+
+
+
+@media  only screen and (max-width:1000px ){
+    .all{
+    display: flex;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:center;
+    align-items: center;
+    margin: 20px;
+}
+.pic3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.right p{ 
+    padding-left: 250px;
+    font-size: 55px;
+    margin-bottom: 150px;
+
+
+
+}
+h1{
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    font-size: 25px;
+}
+.left{
+    margin: 20px;
+}
+}
